@@ -2,10 +2,13 @@
 
 :root {
     --primary-color: #7C3AED;
+    --dark-gray: #6B7280;
+    --off-white: #D1D5DB;
 }
 
 body {
     font-family: 'Noto Sans JP', sans-serif;
+    margin: 0px;
 }
 
 hr {
@@ -13,9 +16,7 @@ hr {
 }
 
 .container {
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-top: 0rem;
+    padding: 0rem 1rem;
 
 }
 
@@ -72,6 +73,52 @@ hr {
     font-weight: bold;
     font-size: 1.1re;
 }
-.navigation .link-active{
+
+.navigation .link-active {
     font-weight: bold;
-}  
+}
+
+/**header**/
+.hero {
+    padding: 2rem;
+}
+
+.hero .hero-img {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading {
+    padding-top: 1rem;
+    color: var(--dark-gray);
+    text-align: center;
+}
+
+/**section**/
+.section {
+    padding: 2rem;
+}
+
+.section h1 {
+    text-align: center;
+}
+
+.ow {
+    background-color: var(--off-white);
+}
+/**footer**/
+.footer{
+background-color: var(--primary-color);
+padding: 2rem 1rem;
+text-align: center;
+color: white;
+border-bottom-right-radius: 1rem;
+}
+.footer .link
+{
+    color: white;
+}
+.footer ul{
+    padding-inline-start: 0px;
+}

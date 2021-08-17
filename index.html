@@ -32,15 +32,15 @@
     <hr>
     <h2>@Links</h2>
 
-    <a class="link primary-link"href="/">Primary link</a>
+    <a class="link primary-link" href="/">Primary link</a>
     <a class="link secondary-link" href="/">Secondry link</a>
     <hr>
     <h2>@Lists</h2>
-    <h3 >unordered list</h3>
+    <h3>unordered list</h3>
     <ul class="non-bullet">
-       <li>Item one</li>
-       <li>Item two</li>
-       <li>Item three</li>
+        <li>Item one</li>
+        <li>Item two</li>
+        <li>Item three</li>
     </ul>
     <h3>unordered inline list</h3>
     <ul class="non-bullet">
@@ -70,31 +70,35 @@
     </nav>
     <hr>
     <h2>@header</h2>
-    <header>
-        <img src="images/hero.svg" alt="" />
-        <h1>Heading inside header</h1>
+    <header class="hero">
+        <img class="hero-img" src="images/hero.svg" alt="" />
+        <h1 class="hero-heading">Heading inside header</h1>
     </header>
     <hr>
     <h2>@section</h2>
-    <section>
-        <h3>white section</h3>
-        <p>This will have white background</p>
+    <section class="section">
+        <div class="conatiner container-center">
+            <h1>white section</h1>
+            <p>This will have white background</p>
+        </div>
     </section>
-    <section>
-        <h3>off white section</h3>
-        <p>This will have gray background</p>
+    <section class="section ow">
+        <div class="conatiner container-center">
+            <h1>off white section</h1>
+            <p>This will have gray background</p>
+        </div>
     </section>
 
     <hr>
     <h2>@footer</h2>
-    <footer>
-        <div>
+    <footer class="footer ">
+        <div class="footer-header">
             Some small heading inside footer
         </div>
-        <ul>
-            <li>Socialone</li>
-            <li>Socialtwo</li>
-            <li>Socialthree</li>
+        <ul class="social-link non-bullet">
+            <li class="list-item-inline"><a class="link" href="/">Socialone</a> </li>
+            <li class="list-item-inline"><a class="link" href="/">Socialtwo</a> </li>
+            <li class="list-item-inline"><a class="link" href="/">Socialthree</a> </li>
 
         </ul>
     </footer>
