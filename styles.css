@@ -30,6 +30,7 @@ hr {
     text-decoration: none;
     padding: 0.5rem 1rem;
     margin: 1rem;
+    text-align: center;
 }
 
 .primary-link {
@@ -76,6 +77,8 @@ hr {
 
 .navigation .link-active {
     font-weight: bold;
+    font-size: larger;
+    border-bottom: 2px solid;
 }
 
 /**header**/
@@ -102,6 +105,7 @@ hr {
 /**section**/
 .section {
     padding: 2rem;
+    text-align: center;
 }
 
 .section h1 {
