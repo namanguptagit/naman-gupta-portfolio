@@ -137,3 +137,8 @@ hr {
 .footer ul {
     padding-inline-start: 0px;
 }
+.bt a{
+    display: block;
+    width: 20%;
+    margin-left: 37%;
+}
