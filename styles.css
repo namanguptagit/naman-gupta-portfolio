@@ -8,7 +8,9 @@
 
 body {
     font-family: 'Noto Sans JP', sans-serif;
-    margin: 0px;
+    margin: 0px auto;
+    max-width: 85%;
+    width: 100%;
 }
 
 hr {
@@ -78,7 +80,6 @@ hr {
 .navigation .link-active {
     font-weight: bold;
     font-size: larger;
-    border-bottom: 2px solid;
 }
 
 /**header**/
